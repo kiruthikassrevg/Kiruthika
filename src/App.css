@@ -1,0 +1,10 @@
+img{
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg");
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}

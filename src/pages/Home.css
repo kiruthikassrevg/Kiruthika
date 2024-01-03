@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(7, 7, 7);
+}
+
+
+  /* Centered text */
+.center {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+img{
+    background-blend-mode: luminosity;
+}
+.center1
+{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+.column {
+    padding-top: 10px;
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+    padding-bottom: 100px;
+    
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.column img{
+    width: 200px;
+    height: 200px;
+}
