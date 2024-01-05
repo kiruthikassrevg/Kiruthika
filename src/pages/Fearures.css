@@ -1,0 +1,29 @@
+.box-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20rem,1fr));
+    gap: 1.5rem;
+}
+.box-container .box{
+    padding: 3rem 2rem;
+    background: rgb(249, 244, 244);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    
+
+}
+.box-container .box:hover{
+    outline: var(--outline);
+    outline-offset: 0rem;
+    
+    
+}
+.box-container .box  img{
+    margin: 0rem ;
+    height: 17rem;
+}
+.box .button:hover{
+    color: blue;
+}

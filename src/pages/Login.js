@@ -33,6 +33,8 @@ function Login(){
                 <p className='text-end mt-2'>
                     <center>Forgot password <a href="#"><h1/>Password or </a><Link to="/Signup" className='ms-2'>Sign Up</Link></center>
                 </p>
+                <br></br>
+                <br></br>
             </form>
             </div>
             </div>

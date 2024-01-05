@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Products.css';
 function Category()
 {
     const Login = () => {
@@ -8,6 +8,12 @@ function Category()
 
     
     return(
+        <div>
+        <img src='https://t3.ftcdn.net/jpg/03/35/74/56/240_F_335745675_MaxYxSsadrviZdThITuHB2oCohYOiwEu.jpg' width={1220} height={500}></img>
+        <div className='center'>
+                <h1>Products</h1>
+                <h3>Make delicious creations. Shop with us!</h3>
+    </div>
         <div className='container'>
         
             <div className='row'>
@@ -21,7 +27,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                    <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -38,7 +44,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     </center>
                     </div>
             </div>
@@ -53,7 +59,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     </center>
                     </div>
             </div>
@@ -68,7 +74,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -84,7 +90,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -101,7 +107,7 @@ function Category()
                 </button>
 
                     
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -117,7 +123,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -133,7 +139,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -149,7 +155,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -165,7 +171,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -181,7 +187,7 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
@@ -197,11 +203,188 @@ function Category()
                     <button type="button" onClick={Login}>
                     Add to cart
                 </button>
-                    <button className='butbuy'>Buy Now</button>
+                <a href='/Login'><button>Buy now</button></a>
                     
                     </center>
                     </div>
             </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.uihjRKIqa57EHkCDLEreBwHaE7&pid=Api&P=0&h=180" alt="Avatar" ></img>
+                    <h4>Bread</h4>
+                    <h5>Rs 50/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOLoW8PEv9hRhJZhP71hhI9dUiESX1fExvknGdvKvs_k52YdIisFhCvPfznb5b7mxb2nwv8hFdYo70wD8AGnunonqdBtcj1r3nZUl0-H9JM7MwU_pxjlnBrg" alt="Avatar" ></img>
+                    <h4>Oil</h4>
+                    <h5>Rs 155/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://www.bigbasket.com/media/uploads/p/xl/50000143_4-nilons-mango-pickle.jpg" alt="Avatar" ></img>
+                    <h4>Pickles</h4>
+                    <h5>Rs 70/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://t4.ftcdn.net/jpg/05/13/94/23/360_F_513942398_sMxwe7kbfMNMPxhWrd2r3i1A23F58Jj5.jpg" alt="Avatar" ></img>
+                    <h4>Salt</h4>
+                    <h5>Rs 55/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://w7.pngwing.com/pngs/408/821/png-transparent-yellow-soap-bar-soap-adobe-illustrator-soap-miscellaneous-leaf-orange-thumbnail.png" alt="Avatar" ></img>
+                    <h4>Soap</h4>
+                    <h5>Rs 38/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://media.istockphoto.com/id/506627545/photo/cherry-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xa-4D_CcLiARKWnDKU-blrB0NWHQKpklO7fLswGmbEs=" alt="Avatar" ></img>
+                    <h4>Cherry</h4>
+                    <h5>Rs 170/kg</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://t4.ftcdn.net/jpg/03/89/85/85/360_F_389858598_TSNp6HysawjDuyAtRrJdru6Kf8LEZXbt.jpg" alt="Avatar" ></img>
+                    <h4>Bitterguard</h4>
+                    <h5>Rs 30/kg</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS_6xG26jFXpItpsBGHexlYjycnO4w93g00A&usqp=CAU" alt="Avatar" ></img>
+                    <h4>Oats</h4>
+                    <h5>Rs 45/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzrNXcyCvzI-5grL5sItMonS4JoTtNSfW0_j7lMqMNTQ&s" alt="Avatar" ></img>
+                    <h4>Bottle</h4>
+                    <h5>Rs 55/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2022/7/MU/PJ/SD/5742893/maggi-noodles.jpg" alt="Avatar" ></img>
+                    <h4>Noodles</h4>
+                    <h5>Rs 55/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
+            <div className='column'>
+                <div>
+                    <div>
+                    <center>
+                    <img src="https://www.starhealth.in/blog/wp-content/uploads/2023/02/cropped-Health-Benefits-of-Eggs.jpg" alt="Avatar" ></img>
+                    <h4>Egg</h4>
+                    <h5>Rs 5/No</h5>
+                    <button type="button" onClick={Login}>
+                    Add to cart
+                </button>
+                <a href='/Login'><button>Buy now</button></a>
+                    
+                    </center>
+                    </div>
+            </div>
+        </div>
         </div>
         </div>
         </div>

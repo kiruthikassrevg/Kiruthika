@@ -17,7 +17,7 @@ function Contact()
                 <h1>Contact Us</h1>
             </div>
         </div>
-        <div>
+        <div className="moto">
             <center>
             <h1>Get in touch with us for business</h1>
             <br></br>
@@ -25,40 +25,37 @@ function Contact()
                 
             <form className="conform">
                 <MdDriveFileRenameOutline />
-                <label>Name</label> 
+                <label>Name :  </label> 
                 <input type="text"></input>
                 <br></br><br></br>
                 <IoMdContact />
-                <label>ph no</label> 
+                <label>ph no : </label> 
                 <input type="text"></input>
                 <br></br><br></br>
                 <IoIosBusiness />
-                <label>Address</label> 
+                <label>Address : </label> 
                 <input type="text"></input>
                 <br></br><br></br>
                 
                 <TiBusinessCard />
-                <label>Email</label> 
+                <label>Email : </label>
                 <input type="text"></input>
                 <br>
                 </br>
                 <br></br>
                 <p>Or</p>
                 <br></br>
-                <label>Message : </label> 
+                <label>Message : </label>
                 <input type="text"></input>
                 <br></br>
                 <br></br>
                 <button type="button" onClick={Login}>
                     Send a message
                 </button>
-                
             </form>
 
                 </center>
-        </div>
-
-        </div>
+        </div>        </div>
     )
 }
 export default Contact;

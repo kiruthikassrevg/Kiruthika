@@ -1,0 +1,20 @@
+.motocol{
+    float: left;
+    width: 50%;
+    
+}
+.motorow:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.motocol h3{
+    color: crimson;
+    font-size: 2.5ch;
+}
+.motocol h2{
+    color: rgb(220, 20, 167);
+    font-size: 2.5ch;
+    font-style: italic;
+    
+}

@@ -19,10 +19,10 @@
 //                return(
 //                <li key={item.id} className={item.class}>
 //                    <Link to={item.path}>{item.title}</Link>
-//                  
-//                  
+//
+//
 //                    </li>
-//                
+//
 //                );
 //            })}
 //        </ul>
@@ -54,9 +54,10 @@ function Navbar() {
 		<header>
 		
 		
-			<h2>Grocery</h2>
+			<h2> KK Grocery</h2>
 			<nav ref={navRef}>
 				<h4><Link to='/'>Home</Link></h4>
+				<h4><Link to='/features'>Features</Link></h4>
 				<h4><Link to='/category'>Category</Link></h4>
 				<h4><Link to='/products'>Products</Link></h4>
 				<h4><Link to='/contact'>Contact</Link></h4>

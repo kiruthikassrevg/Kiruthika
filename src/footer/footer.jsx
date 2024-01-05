@@ -7,6 +7,7 @@ import './footer.css';
 const Footer=()=>{
     return(
         <div className="footer">
+            <br></br>
 <div className="sb_footer section_padding">
     <div className="sb__footer-links">
         <div className="sb__footer-links_div">
@@ -39,6 +40,9 @@ const Footer=()=>{
             </div>
             <div className="sb__footer-links_div">
             <h3>Company</h3>
+            <a href="/features">
+                <p>Features</p>
+            </a>
             <a href="/products">
                 <p>Products</p>
             </a>
@@ -48,7 +52,7 @@ const Footer=()=>{
             <a href="/contact">
                 <p>Contact</p>
                 </a>
-            <a href="/home">
+            <a href="/">
                 <p>Home</p>
                 </a>
             </div>
